@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    
+}
+
+.header{
+    /*background-color: aqua;*/
+    width: 100%;
+    height: 60px;
+}
+
+.container-header{
+   /* background-color: aquamarine;*/
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.cont-header1{
+   /* background-color: beige;*/
+    width: 50%;
+    height: 100%;
+}
+
+.logo{
+    margin-left: 5%;
+    margin-top: 1%;
+}
+.cont-header2{
+    /*background-color: azure;*/
+    width: 50%;
+    height: 100%;
+}
+
+.button-menu{
+    background-color: aquamarine;
+    float: right;
+    margin-right: 5%;
+    margin-top: 2%;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    
+
+}
+
+.button-menu:hover{
+    background-color: grey;
+    color: black;
+}
+
+.section1{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    text-align: center;
+    
+}
+
+.h1-section{
+    font-size: calc(3.5em + 1.5vw);
+    margin-top: 5%;
+}
+
+.changeColor{
+    color: rgb(8, 153, 93);
+    font-size: calc(1.2em + 1vw);
+}
+
+.changeColor .letter {
+    display: inline-block;
+  line-height: 1em;
+}
+
+.one{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 35%;
+}
+
+
+/*
+Seccion 2 de la pagina
+*/
+
+.sect20{
+    width: 80%;
+    height: 150vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: aqua;
+    margin-top: 20%;
+}
+
+.cont-sect2{
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
+}
+
+.sect1{
+    grid-column-start: 1;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    
+
+}
+
+.sect2{
+    grid-column-start: 2;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 0, 43);
+
+}
+
+.sect3{
+    grid-column-start: 1;
+    grid-template-rows: 2;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 0, 221);
+    row-gap: 35px;
+
+}
+
+.sect4{
+    grid-column-start: 2;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(238, 255, 0);
+
+}
+
+.sect5{
+    grid-column-start: 1;
+    grid-template-rows: 3;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(51, 255, 0);
+
+}
+
+.sect6{
+    grid-column-start: 2;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 136, 0);
+
+}
